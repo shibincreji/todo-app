@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background: var(--blue800-ds);
+    color: var(--gray-blue600);
+    border-radius: 0 0 5px 5px;
+    font-size: 0.8rem;
+    position: relative;
+
+    &__filter {
+        display: flex;
+        gap: 1rem;
+
+        button.active {
+            color: var(--blue400);
+        }
+    }
+
+    button {
+        color: inherit;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+
+    button:not(.active):hover {
+        color: var(--gray-blue400-hover);
+    }
+
+    @media (max-width: 600px) {
+        &__filter {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            bottom: -5rem;
+            padding: 1.25rem;
+            background: inherit;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+        }
+    }
+}
+
+.light {
+    button:not(.active):hover {
+        color: var(--gray-blue800);
+    }
+}

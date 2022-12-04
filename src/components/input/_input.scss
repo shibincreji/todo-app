@@ -1,0 +1,35 @@
+.todoForm {
+    display: block;
+    padding: 1rem 1.5rem;
+    background: var(--blue800-ds);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+
+    &__circle {
+        height: 1.25rem;
+        aspect-ratio: 1;
+        border: 1px solid var(--gray-blue800);
+        border-radius: 50%;
+    }
+
+    &__input {
+        width: 100%;
+        background: none;
+        border: none;
+        outline: none;
+        color: var(--gray-blue400);
+        font-size: 1.1rem;
+        font-family: inherit;
+        position: relative;
+        top: 2px;
+
+        &::placeholder {
+            color: var(--gray-blue600);
+            font-weight: 400;
+        }
+    }
+}

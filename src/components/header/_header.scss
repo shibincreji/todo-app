@@ -1,0 +1,32 @@
+.header {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-size: 2.5rem;
+        color: var(--gray-blue400-hover);
+        letter-spacing: 0.5em;
+    }
+
+    .sun {
+        animation: sun 0.2s ease-out forwards;
+    }
+    .moon {
+        animation: moon 0.2s ease-out forwards;
+    }
+}
+
+@keyframes sun {
+    to {
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+}
+@keyframes moon {
+    to {
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+}

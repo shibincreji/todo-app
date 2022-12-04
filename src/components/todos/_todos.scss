@@ -1,0 +1,17 @@
+.todos {
+    box-shadow: 30px 30px 80px rgba(0, 0, 0, 0.1);
+    background: var(--blue800-ds);
+
+    &__empty {
+        background: var(--blue800-ds);
+        padding: 1rem;
+        color: var(--gray-blue600);
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+        & {
+            margin-bottom: 6rem;
+        }
+    }
+}

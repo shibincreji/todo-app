@@ -1,0 +1,23 @@
+:root {
+    --blue400: hsl(220, 98%, 61%);
+    --check: hsl(192, 100%, 67%), hsl(280, 87%, 65%);
+}
+
+.light {
+    --gray-blue600: hsl(236, 9%, 61%);
+    --gray-blue800: hsl(235, 19%, 35%);
+    --gray-blue400-hover: hsl(0, 0%, 98%);
+    --blue800-ds: hsl(0, 0%, 98%);
+    --gray-blue400: hsl(235, 19%, 35%);
+    --gray-blue800-2: hsl(236, 24%, 86%);
+}
+
+.dark {
+    --blue800: hsl(235, 21%, 11%);
+    --blue800-ds: hsl(235, 24%, 19%);
+    --gray-blue400: hsl(234, 39%, 85%);
+    --gray-blue600: hsl(234, 11%, 52%);
+    --gray-blue800: hsl(233, 14%, 35%);
+    --gray-blue800-2: hsl(237, 14%, 26%);
+    --gray-blue400-hover: hsl(236, 33%, 92%);
+}
