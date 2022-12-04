@@ -20,12 +20,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-design-dark.jpg)
+![](./design/desktop-design-dark.png)
 
 ### Links
 
 -   Solution URL: [Github](https://github.com/shibincreji/todo-app)
--   Live Site URL: [Netlify](https://.netlify.app)
+-   Live Site URL: [Netlify](https://updateme.netlify.app/)
 
 ## My process
 
