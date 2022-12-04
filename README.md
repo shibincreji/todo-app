@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-design-dark.png)
+![](./design/desktop-design-dark.jpg)
 
 ### Links
 
